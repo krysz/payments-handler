@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>BankAccount.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.krysz.paymentshandler.domain.model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import lombok.Getter;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import lombok.NonNull;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>@Getter</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class BankAccount {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>  @NonNull</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_9'/>
+9
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_9'>1</a>
+<span>
+
+1. getIban : replaced return value with &#34;&#34; for com/krysz/paymentshandler/domain/model/BankAccount::getIban &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>  private final String iban;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>  public BankAccount(String iban) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    this.iban = iban;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>  }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@5083642c_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@5083642c_9'>9</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@5083642c_9'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getIban<br/><b>Killed by : </b>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[method:shouldPassValidCommand()]</span></span> replaced return value with &#34;&#34; for com/krysz/paymentshandler/domain/model/BankAccount::getIban &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>architecture.ArchitectureTest.[engine:archunit]/[class:architecture.ArchitectureTest]/[field:all_public_methods_in_the_REST_controller_should_return_response_entity] (15 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[test-template:shouldFailWhenAmountNegative(long)]/[test-template-invocation:#2] (0 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[method:shouldHasTwoErrorsIfBothValidationsFailed()] (11 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[test-template:shouldFailWhenAmountNegative(long)]/[test-template-invocation:#1] (16 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[method:shouldPassValidCommand()] (0 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[test-template:shouldFailWhenIbanDoesNotStartWithCountryCode(java.lang.String)]/[test-template-invocation:#3] (16 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[test-template:shouldFailWhenIbanDoesNotStartWithCountryCode(java.lang.String)]/[test-template-invocation:#2] (0 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[test-template:shouldFailWhenAmountNegative(long)]/[test-template-invocation:#3] (16 ms)</li><li>com.krysz.paymentshandler.api.validator.CommandValidatorTest.[engine:junit-jupiter]/[class:com.krysz.paymentshandler.api.validator.CommandValidatorTest]/[test-template:shouldFailWhenIbanDoesNotStartWithCountryCode(java.lang.String)]/[test-template-invocation:#1] (15 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.6.5
+
+</body>
+</html>
