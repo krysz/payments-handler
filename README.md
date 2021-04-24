@@ -5,8 +5,10 @@ Overview:
 
 Payment is described by: unique identifier created during persistence process, amount, currency, user ID and target bank account number
 
+
 To get the list of all payments:
 ```GET /api/payments```
+
 
 To get specific payment:
 ```GET /api/payments/{id}```
@@ -32,7 +34,7 @@ Response:
 }
 ```
 
-When there is no payment with given ID, the response id:
+When there is no payment with given ID, the response is:
 ```HTTP 404
 {
     "message": "ResourceCannotBeFoundException",
